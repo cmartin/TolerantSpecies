@@ -24,7 +24,7 @@ image(community$matrix, col=pal(community$nb.leaves),useRaster=TRUE)
 
 ![](https://raw.githubusercontent.com/cmartin/TolerantSpecies/master/Example.png)
 
-Also see **Example.Simulation.R** for a more complete simulation example.
+Also see [Example.Simulation.R](https://github.com/cmartin/TolerantSpecies/blob/master/Example.Simulation.R) for a more complete simulation example.
 
 Default parameters
 -------------------------------
