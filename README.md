@@ -14,7 +14,7 @@ This process is repeated until either **max.iterations** or **max.cover** is rea
 
 Example code
 ---------------------------------------------
-```{r}
+```R
 source("lib.R")
 source("TolerantSpecies.R")
 community = Tolerant.Species(matrix.size=200, max.cover=.75,n.species=3)
@@ -28,7 +28,7 @@ Also see [Example.Simulation.R](https://github.com/cmartin/TolerantSpecies/blob/
 
 Default parameters
 -------------------------------
-```{r}
+```R
 matrix.size = 250 # matrix side length
 sigma = 3 # power distribution parameter
 rmin = 0.01 # minimum relative size of the ellipse major-axis compared to the matrix
