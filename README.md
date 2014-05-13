@@ -21,6 +21,9 @@ community = Tolerant.Species(matrix.size=200, max.cover=.75,n.species=3)
 pal = colorRampPalette(colors=c("black","green","white"))
 image(community$matrix, col=pal(community$nb.leaves),useRaster=TRUE)
 ```
+
+![](https://raw.githubusercontent.com/cmartin/TolerantSpecies/master/Example.png)
+
 Also see **Example.Simulation.R** for a more complete simulation example.
 
 Default parameters
